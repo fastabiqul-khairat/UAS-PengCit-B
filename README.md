@@ -1,5 +1,6 @@
 # UAS-PengCit-B
 1. Teori yang mendukung mengenai projek terkait.
+   
    Berikut adalah teori yang mendukung mengenai projek yang saya buat:
    
    a. Grayscale Conversion: Pada langkah ini, gambar asli dikonversi menjadi citra grayscale. Citra grayscale hanya memiliki satu saluran       warna (intensitas), sehingga memudahkan proses deteksi tepi karena hanya perlu memperhatikan perbedaan intensitas piksel.
@@ -14,9 +15,10 @@
    
    f. Tampilan Menggunakan Matplotlib: Pada bagian akhir, citra asli dan citra dengan tepi terdeteksi ditampilkan menggunakan Matplotlib.       Dalam contoh ini, subplot dua kolom digunakan untuk menampilkan kedua citra secara berdampingan. Fungsi imshow digunakan untuk            menampilkan citra dalam subplot, sementara set_title digunakan untuk memberikan judul pada setiap subplot.
    
-  Dengan menggabungkan langkah-langkah diatas ini, sehingga saya dapat mengidentifikasi tepi dalam gambar dan menandai garis-garis yang     terdeteksi untuk tujuan analisis atau pengolahan selanjutnya.
+     Dengan menggabungkan langkah-langkah diatas ini, sehingga kita dapat mengidentifikasi tepi dalam gambar dan menandai garis-garis          yang terdeteksi untuk tujuan analisis atau pengolahan selanjutnya.
    
-3. Menjelaskan tahapan cara menyelesaikan projek dengan rinci.
+2. Menjelaskan tahapan cara menyelesaikan projek dengan rinci.
+   
    Berikut adalah tahapan-tahapan rinci untuk menyelesaikan proyek deteksi markah jalan atau deteksi  tepi dan garis menggunakan OpenCV:
    
    a. Mengimpor Libraries: Impor library yang diperlukan, yaitu cv2, numpy, dan matplotlib.pyplot.
