@@ -1,6 +1,6 @@
 # UAS-PengCit-B
 1. Teori yang mendukung mengenai projek terkait
-   Berikut adalah teori yang mendukung mengenai prohjek yang saya buat:
+   Berikut adalah teori yang mendukung mengenai projek yang saya buat:
    a. Grayscale Conversion: Pada langkah ini, gambar asli dikonversi menjadi citra grayscale. Citra grayscale hanya memiliki satu saluran       warna (intensitas), sehingga memudahkan proses deteksi tepi karena hanya perlu memperhatikan perbedaan intensitas piksel.
    b. Gaussian Blur: Tahap ini melibatkan penerapan filter Gaussian pada citra grayscale untuk mengurangi noise atau detail yang tidak          diinginkan. Filter Gaussian adalah jenis filter spasial yang digunakan untuk menghaluskan citra dengan mengurangi perbedaan               intensitas antara piksel-piksel tetangganya.
    c. Canny Edge Detection: Metode ini adalah algoritma populer untuk mendeteksi tepi dalam citra. Algoritma Canny menggabungkan beberapa       langkah, termasuk deteksi tepi dengan menggunakan gradien citra, penekanan non-maksimum untuk memperoleh tepi yang lebih tipis, dan       histeresis untuk menghilangkan tepi palsu dan mempertahankan tepi yang kuat.
