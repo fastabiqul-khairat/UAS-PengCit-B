@@ -1,7 +1,7 @@
 # UAS-PengCit-B
 1. Teori yang mendukung mengenai projek terkait.
    
-   Berikut adalah teori yang mendukung mengenai projek yang saya buat:
+   Dalam projek yang saya buat, terdapat beberapa teori pendukung dalam proek tersebut, seperti Grayscale Conversion, Gaussian Blur, Canny Edge Detection, Hough Transform, Menggambar Garis pada Gambar Asli dengan fungsi cv2.line, dan Library Matplotlib untuk menampilkan gambar. Berikut untuk penjelasan lengkapnya:
    
    a. Grayscale Conversion: Pada langkah ini, gambar asli dikonversi menjadi citra grayscale. Citra grayscale hanya memiliki satu saluran       warna (intensitas), sehingga memudahkan proses deteksi tepi karena hanya perlu memperhatikan perbedaan intensitas piksel.
    
@@ -15,15 +15,13 @@
    
    f. Tampilan Menggunakan Matplotlib: Pada bagian akhir, citra asli dan citra dengan tepi terdeteksi ditampilkan menggunakan Matplotlib.       Dalam contoh ini, subplot dua kolom digunakan untuk menampilkan kedua citra secara berdampingan. Fungsi imshow digunakan untuk            menampilkan citra dalam subplot, sementara set_title digunakan untuk memberikan judul pada setiap subplot.
    
-     Dengan menggabungkan langkah-langkah diatas ini, sehingga kita dapat mengidentifikasi tepi dalam gambar dan menandai garis-garis          yang terdeteksi untuk tujuan analisis atau pengolahan selanjutnya.
-   
 2. Menjelaskan tahapan cara menyelesaikan projek dengan rinci.
    
-   Berikut adalah tahapan-tahapan rinci untuk menyelesaikan proyek deteksi markah jalan atau deteksi  tepi dan garis menggunakan OpenCV:
+   Berikut adalah penjelasan tahapan-tahapan untuk menyelesaikan proyek deteksi markah jalan atau deteksi tepi dan garis:
    
    a. Mengimpor Libraries: Impor library yang diperlukan, yaitu cv2, numpy, dan matplotlib.pyplot.
    
-   b. Memuat Gambar: Tentukan path (lokasi) gambar yang ingin Anda deteksi markanya. Gunakan fungsi cv2.imread() untuk membaca gambar           dari path yang ditentukan dan simpan hasilnya dalam variabel image.
+   b. Memuat Gambar: Gunakan fungsi cv2.imread() untuk membaca gambar dan simpan hasilnya dalam variabel image.
    
    c. Konversi ke Grayscale: Gunakan fungsi cv2.cvtColor() dengan parameter cv2.COLOR_BGR2GRAY untuk mengubah gambar ke citra grayscale.        Simpan hasilnya dalam variabel gray.
    
@@ -38,5 +36,3 @@
    h. Tampilkan Hasil Menggunakan Matplotlib: Gunakan fungsi plt.subplots() untuk membuat gambar dengan subplot. Tentukan jumlah subplot        (dalam contoh ini 1 baris dan 2 kolom) dan ukuran gambar (dalam contoh ini 10x10). Dapatkan akses ke subplot menggunakan                  axs.ravel(). Gunakan imshow() untuk menampilkan citra dalam setiap subplot, dan set_title() untuk memberikan judul pada setiap            subplot.
    
    i. Menampilkan Gambar: Panggil plt.show() untuk menampilkan gambar yang telah dihasilkan.
-
-   Dengan mengikuti langkah-langkah ini, kita dapat memuat gambar, mengubahnya menjadi citra grayscale, mendeteksi tepi dan garis            menggunakan Canny dan Hough Transform, dan menampilkan hasilnya sesuai dengan yang diinginkan menggunakan Matplotlib.
